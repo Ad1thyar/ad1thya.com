@@ -3,6 +3,11 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/lander",
+      "destination": "https://ad1thya.com/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
