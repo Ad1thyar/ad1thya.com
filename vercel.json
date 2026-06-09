@@ -1,4 +1,17 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.ad1thya.com"
+        }
+      ],
+      "destination": "https://ad1thya.com/:path*",
+      "permanent": true
+    }
+  ]
 }
